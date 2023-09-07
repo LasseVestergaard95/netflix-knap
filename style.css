@@ -15,7 +15,7 @@ border-radius: 4px;
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
   background-color: rgb(156, 145, 145, 0.8);
   background-repeat: no-repeat;
-  background-size: 0%;
+  background-size: 100%;
   border: none;
   padding: 0.5rem 1rem;
   transform-origin: center left;
@@ -28,7 +28,7 @@ border-radius: 4px;
 .shrink {
   animation-name: shrink_kf;
   animation-duration: 4s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
